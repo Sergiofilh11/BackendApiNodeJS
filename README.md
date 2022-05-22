@@ -10,9 +10,9 @@
 
 - Fazer o clone do projeto
 - Executar o comando , para instalar as dependencias do projeto.
->> OBS: Dependências declaradas no arquivo `Package.json`.
+> OBS: Dependências declaradas no arquivo `Package.json`.
 
 ### Para executar o projeto:
 
->> para executar o projeto apontando para o banco de dados local.
->> para exercutar o projeto apontando para o banco de dados de produção.
+> para executar o projeto apontando para o banco de dados local.
+> para exercutar o projeto apontando para o banco de dados de produção.
