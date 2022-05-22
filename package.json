@@ -1,0 +1,33 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "description": "Projeto de desenvolvimento de API",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start loader.js --name backend-api-nodeJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergiofilh11/backend-api-nodeJS.git"
+  },
+  "author": "Sergio Fraga de Andrade Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sergiofilh11/backend-api-nodeJS/issues"
+  },
+  "homepage": "https://github.com/Sergiofilh11/backend-api-nodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-query-int": "^3.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.3",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
